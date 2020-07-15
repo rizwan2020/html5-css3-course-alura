@@ -126,11 +126,25 @@ form legend {
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    transition: 1s background;
+    transition: 1s all;
     cursor: pointer;
 }
 
-.enviar:hover{
-    background:darkorange;
+.enviar:hover {
+    background: green;
+    transform: scale(1, 2) rotate(360deg);
+}
 
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555;
+    color: white;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid #000;
+    padding: 8px 15px;
 }
