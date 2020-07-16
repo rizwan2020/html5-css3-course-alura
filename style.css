@@ -94,8 +94,6 @@ footer {
 }
 
 main {
-    width: 940px;
-    margin: 0 auto;
 }
 
 form {
@@ -165,6 +163,13 @@ th {
     clear: left;
 }
 
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .principal p {
     margin: 0 0 1em;
 }
@@ -182,22 +187,33 @@ th {
     float: left;
     margin: 0 20px 20px 0;
 }
-.mapa,
-beneficios {
+.mapa {
     padding: 3em 0;
+    background: linear-gradient(135deg,gray 55%, yellow 5%, blue  );
 }
-
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
 .mapa p {
     margin: 0 0 2em;
     text-align: center;
 }
 
-.itens{
+.itens {
     line-height: 1.5;
 }
 
-.itens:first-child, .itens:last-child, .itens:nth-child(3n) {
+.itens:first-child,
+.itens:last-child,
+.itens:nth-child(3n) {
     font-weight: bold;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: radial-gradient( #FEFEFE , yellow , blue  );
+
 }
 
 .conteudo-beneficios {
