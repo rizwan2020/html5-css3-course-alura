@@ -163,6 +163,21 @@ th {
     clear: left;
 }
 
+.titulo-principal:first-letter {
+    font-weight: italic;
+}
+
+.titulo-principal:before {
+    content: "[ ";
+}
+
+.titulo-principal:after {
+    content: " ]";
+}
+
+.itens:before{
+    content: "⭐ "
+}
 .principal {
     padding: 3em 0;
     background: #fefefe;
@@ -189,7 +204,7 @@ th {
 }
 .mapa {
     padding: 3em 0;
-    background: linear-gradient(135deg,gray 55%, yellow 5%, blue  );
+    background: linear-gradient(135deg, gray 55%, yellow 5%, blue);
 }
 .mapa-conteudo {
     width: 940px;
@@ -212,8 +227,7 @@ th {
 
 .beneficios {
     padding: 3em 0;
-    background: radial-gradient( #FEFEFE , yellow , blue  );
-
+    background: radial-gradient(#fefefe, yellow, blue);
 }
 
 .conteudo-beneficios {
