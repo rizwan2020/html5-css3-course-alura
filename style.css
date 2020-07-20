@@ -242,6 +242,12 @@ th {
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.5;
 }
 
 .video {
@@ -249,14 +255,4 @@ th {
     margin: 1em auto;
 }
 
-main > p {
-    background: #555;
-}
 
-img ~ p {
-    background: #bbc;
-}
-
-img + p {
-    background: #ccc;
-}
