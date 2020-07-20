@@ -93,9 +93,6 @@ footer {
     margin: 20px 0;
 }
 
-main {
-}
-
 form {
     margin: 40px 0;
 }
@@ -134,6 +131,10 @@ form legend {
 .enviar:hover {
     background: green;
     transform: scale(1, 2) rotate(360deg);
+}
+.horario-funcionamento table {
+    text-align: center;
+    width: 100%;
 }
 
 table {
@@ -264,13 +265,25 @@ th {
     .video {
         width: auto;
     }
-    h1{
+    h1 {
         text-align: center;
     }
     nav {
         position: static;
     }
-    .lista-beneficios, .imagem-beneficios{
+    .lista-beneficios,
+    .imagem-beneficios {
         width: 100%;
     }
+
+    .produtos {
+        display: inline;
+    }
+    .produtos li {
+        width: 100%;
+    }
+    .enviar {
+        width: 100%;
+    }
+
 }
