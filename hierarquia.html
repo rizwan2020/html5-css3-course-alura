@@ -10,18 +10,31 @@
 <body>
 
     <main>
-        <p>
-            Estilizações de componentes seguem uma hierarquia para saber qual o navegador irá renderizar:
-        </p>
-        <ul>
-            <li>Tag: p, div, form (peso 1)</li>
-            <li>Class: .form-control, .class (peso 10)</li>
-            <li>Id: #form-control (peso 100)</li>
-            <li>Inline: peso (1000) </li>
-        </ul>
-<p>
-    Do mais fraco para o mais forte, ou do mais genérico para o mais específico. Recomenda-se a utilização quando necessário de classes.
-</p>
+        <section>
+
+            <p>
+                Estilizações de componentes seguem uma hierarquia para saber qual o navegador irá renderizar:
+            </p>
+            <ul>
+                <li>Tag: p, div, form (peso 1)</li>
+                <li>Class: .form-control, .class (peso 10)</li>
+                <li>Id: #form-control (peso 100)</li>
+                <li>Inline: peso (1000) </li>
+            </ul>
+            <p>
+                Do mais fraco para o mais forte, ou do mais genérico para o mais específico. Recomenda-se a utilização
+                quando necessário de classes.
+            </p>
+        </section>
+        <section>
+            <p>Seletores avançados</p>
+            <ul>
+                <li>Elementos filhos dentro de uma tag, sintaxe: tag > tag filho </li>
+                <li>Primeiro item dentro de uma tag: tag + tag filho </li>
+                <li>Todos itens dentro de uma tag: tag ~ tag filho </li>
+                <li>Exclui itens com determinado identificador: tag:not(identificador) </li>
+            </ul>
+        </section>
     </main>
 
 </body>
